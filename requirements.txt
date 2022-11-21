@@ -8,3 +8,6 @@
 #
 # The following is a commented example entry, just remove the # to use it
 #pygame
+
+flake8==4.0.1
+pep8-naming==0.13.2
