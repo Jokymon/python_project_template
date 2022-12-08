@@ -62,3 +62,20 @@ following these steps:
 
 Now you should find a `.bundle` file in your project folder that is named
 with your project folder name. This can be submitted to Moodle.
+
+# FAQ
+
+## Why can't I commit my source code?
+
+Make sure, you create your source code outside of an "ignored" directory.
+The folder `.vscode`, with the exception of a few files, is excluded from
+version control with Git. If you place your source code in that folder,
+it will not show up in the "Source Control" menu in VSCode. Instead place
+it in the main directory or in a new directory.
+
+## What is the purpose of the .vscode folder?
+
+This folder contains additional settings for VSCode. Amongst them are
+additional (build-) tasks and settings for code formatting for your
+project. You can ignore this folder and all contained files for your
+own projects.
