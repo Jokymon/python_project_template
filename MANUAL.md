@@ -40,7 +40,31 @@ your file. When you violate one of the Linting-rules, you will see a blue,
 wavy line appear below the violating line of code. Hovering over the marked
 text with your mouse will show you what rule you violated.
 
-# Submission via Moodle or other LMS
+# Handin your solution
+
+You can either handin your source code by submitting something called a Git
+bundle. The section "Submission via Moodle or other LMS" explains how you
+can create such a bundle.
+
+Alternatively you can also share your repository with the lecturer.
+
+Please make sure, you check the following points before handing in your
+solution code:
+
+* [ ] Have you included any Python standard libraries in `requirements.txt`?
+      Libraries like `sys`, `os`, `pathlib` etc. are already part of the
+      standard Python installation and must not be included in the
+      `requirements.txt` file. Please remove them before submission.
+* [ ] Does your project refer to absolute directories?
+      Your colleagues and your lecturer might download your source code into
+      different directories than you did. Make sure, you use project-relative
+      paths when referencing resources in your project, such as pictures or
+      data files.
+* [ ] Does your README.md still contain text between `<` and `>`?
+      This text is meant as placeholders. Please replace this text including
+      the `<` and `>` characters with your own text.
+
+## Submission via Moodle or other LMS
 
 From the root directory of your project run the following git command:
 
@@ -52,7 +76,7 @@ Moodle.
 Make sure you replace `<projectname>` in the above examples with a name that
 identifies your own project.
 
-## Using the provided VS Code task
+### Using the provided VS Code task
 
 Alternatively you can also use the VS Code task "Bundle for Submission" by
 following these steps:
