@@ -3,13 +3,25 @@ project template.
 
 # Getting Started in VSCode
 
+Before starting, make sure you have the following VS Code extensions installed:
+
+  * "Python" for general Python support
+  * "Black Formatter" for automatic formatting of Python code
+  * "Flake8" for linting support for Python files
+
 To get an initial virtual environment for your project, perform the following
 steps:
 
-  1. Type `Ctrl-Shift-P` and enter "Tasks: Run Tasks", hit the `Enter` key
-  2. Select the task "Create Virtual environment" and hit the `Enter` key
-  3. A message box will popup about noticing a new virtual environment and
-     whether this should be used for the workspace. Choose 'Yes'
+  1. Type `Ctrl-Shift-P` and enter "Python: Create Environment...", hit the
+     `Enter` key
+  2. Choose `Venv` for the "environment tpye" if asked
+  3. Choose your installed Python interpreter
+  4. Tick the checkbox for installing the dependencies in `requirements.txt`
+  5. Wait for the "Creating environment" step to complete
+
+With the first saving of a Python file, you might see a message box saying that
+"You have the Black formatter extension installed, ...". For this, choose "Yes"
+to use the automatic code formatting feature.
 
 The full tutorial to get started with Python under VSCode can be found here:
 https://code.visualstudio.com/docs/python/python-tutorial
