@@ -34,3 +34,6 @@ Scripts/
 .venv
 env/
 venv/
+
+# MS Office temporary documents
+~$*
