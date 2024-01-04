@@ -37,3 +37,6 @@ venv/
 
 # MS Office temporary documents
 ~$*
+
+# MacOS files
+.DS_Store
