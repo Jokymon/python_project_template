@@ -5,9 +5,9 @@ project template.
 
 Before starting, make sure you have the following VS Code extensions installed:
 
-  * "Python" for general Python support
-  * "Black Formatter" for automatic formatting of Python code
-  * "Flake8" for linting support for Python files
+  * "Python" for general Python support. Extension id `ms-python.python`
+  * "Black Formatter" for automatic formatting of Python code. Extension id `ms-python.black-formatter`
+  * "Flake8" for linting support for Python files. Extension id `ms-python.flake8`
 
 To get an initial virtual environment for your project, perform the following
 steps:
